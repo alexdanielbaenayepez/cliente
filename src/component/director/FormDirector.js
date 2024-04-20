@@ -19,7 +19,7 @@ export const FormUser = ()=> {
       nombre, estado, fechaCreacion, fechaActualizacion
     }
 
-    fetch('http://localhost:3001/creardirector', {
+    fetch('https://apppeliculas.onrender.com/creardirector', {
       method: "post",
       headers: { 'Content-Type': 'application/json;charset=utf-8' },
       body: JSON.stringify(jsonBody)})
